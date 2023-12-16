@@ -4,6 +4,7 @@
         <p class="{{todo.completed? 'complete' : 'incomplete'}}">{{todo.completed == true ? 'DONE' : 'INCOMPLETE'}}</p>
         <!-- <p *ngIf="todo.completed; else incomplete" class = "complete">DONE </p> -->
         <!-- <ng-template #incomplete class="incomplete">Incomplete </ng-template> -->
+        <p class="id">Task {{ todo.id }}</p>
         <p>Title {{ todo.title }}</p>
         <p>User {{ todo.userId }}</p>
       </div>
