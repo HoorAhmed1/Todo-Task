@@ -3,25 +3,58 @@ body {
     margin: 20px;
 }
 
-div {
+/* div {
     max-width: 600px;
     margin: auto;
     padding: 30px;
     border: 5px solid #ccc;
     box-shadow: 10px 10px 10px rgba(88, 78, 78, 0.1);
     border-radius: 15px;
-}
+} */
 
 h1 {
-    color: #08386c;
+    color: #8191a3;
     text-align: center;
 }
-
-div.todo-item {
-    margin-bottom: 20px;
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.todo-item {
+    width: 300px;
+    height: 130px;
+    box-shadow: 10px 10px 10px rgba(60, 54, 54, 0.1);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color:rgb(248, 245, 252);
+}
+.list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* border: 5px solid rgb(175, 169, 244); */
+    width: 1200px;
+    border-radius: 15px;
+}
+p.complete{
+    background-color: #4AA96C;
+    width: fit-content;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+p.incomplete{
+    background-color: #F55C47;
+    width: fit-content;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
 input[type="checkbox"] {
     margin-right: 15px;
     border-radius: 5px;
 }
+
